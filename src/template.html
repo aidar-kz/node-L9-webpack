@@ -7,6 +7,15 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <h1><%= htmlWebpackPlugin.options.title %></h1>
+    <div class="container">
+      <section class="hero is-primary">
+        <div class="hero-body has-text-centered">
+          <img id="iconImg" />
+          <h3><%= htmlWebpackPlugin.options.title %></h3>
+          <div id="text" class="is-size-2 mt-4 mb-5"></div>
+          <button id="btn" class="button is-large mt-5">Еще!</button>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
