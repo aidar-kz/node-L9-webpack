@@ -1,5 +1,5 @@
 function getText() {
-  return "Текст из getText";
+  return "Текст из getText!";
 }
 
 module.exports = getText;
