@@ -51,7 +51,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Сделано с помощью HtmlWebpackPlugin",
+      title: "Афоризмус",
       filename: "index.html",
       template: "src/template.html",
     }),
